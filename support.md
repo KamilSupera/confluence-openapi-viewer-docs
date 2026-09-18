@@ -1,5 +1,7 @@
 # Support
 
+Applies to OpenAPI (Swagger) Viewer and JSON & YAML Viewer for Confluence.
+
 Email: kamil.supera.ks@gmail.com
 
 Include your Confluence site URL, the page where the macro is used, and the error text shown by the macro. Response within two business days.

@@ -1,4 +1,9 @@
-# OpenAPI (Swagger) Viewer for Confluence
+# Saren-it apps for Confluence
+
+- [OpenAPI (Swagger) Viewer](#openapi-swagger-viewer-for-confluence)
+- [JSON & YAML Viewer](json-viewer.md)
+
+## OpenAPI (Swagger) Viewer for Confluence
 
 Renders an OpenAPI 2.0 / 3.x definition with Swagger UI inside a Confluence Cloud page. Built on Atlassian Forge, no external servers.
 
