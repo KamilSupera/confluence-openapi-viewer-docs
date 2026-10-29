@@ -3,7 +3,7 @@
 ## Architecture
 
 - Built on Atlassian Forge. The app has no servers, databases or backend functions of its own; it consists only of two static UI bundles (the macro viewer and its configuration form) hosted by Atlassian.
-- Forge scopes: `read:page:confluence` and `read:attachment:confluence`, used only to read the attachment selected in the macro on the current page. The app cannot write to Confluence.
+- Forge scope: `read:attachment:confluence` only, used to read the attachment selected in the macro on the current page. The app cannot read page content and cannot write to Confluence.
 - Requests to Confluence go through the Forge bridge and run with the permissions of the user viewing the page.
 
 ## Data handling
@@ -27,7 +27,7 @@ The app declares `fetch.client: *` and `images: *` because the definition URL is
 
 - Dependencies are pinned in `package-lock.json` and checked with `npm audit` before every release.
 - Security fixes are released as Forge minor versions and roll out automatically to all installations.
-- Critical vulnerabilities are addressed within 7 days of confirmation, high within 30 days.
+- Confirmed vulnerabilities are prioritised by severity and fixed as soon as practicable.
 
 ## Reporting a vulnerability
 
