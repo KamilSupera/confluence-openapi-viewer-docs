@@ -8,6 +8,7 @@
 Renders an OpenAPI 2.0 / 3.x definition with Swagger UI inside a Confluence Cloud page. Built on Atlassian Forge, no external servers.
 
 - [Privacy policy](privacy.md)
+- [Security](security.md)
 - [Support](support.md)
 - [Publish from CI](ci.md)
 
